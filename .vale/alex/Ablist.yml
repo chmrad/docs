@@ -1,0 +1,60 @@
+---
+extends: substitution
+message: When referring to a person, consider using '%s' instead of '%s'.
+ignorecase: true
+level: warning
+action:
+  name: replace
+swap:
+  ablebodied: non-disabled
+  addict: person with a drug addiction|person recovering from a drug addiction
+  addicts: people with a drug addiction|people recovering from a drug addiction
+  adhd: disorganized|distracted|energetic|hyperactive|impetuous|impulsive|inattentive|restless|unfocused
+  afflicted with MD: person who has muscular dystrophy
+  afflicted with a disability: has a disability|person with a disability|people with
+    disabilities
+  afflicted with a intellectual disability: person with an intellectual disability
+  afflicted with a polio: polio|person who had polio
+  afflicted with aids: person with AIDS
+  afflicted with an injury: sustain an injury|receive an injury
+  afflicted with disabilities: has a disability|person with a disability|people with
+    disabilities
+  afflicted with injuries: sustain injuries|receive injuries
+  afflicted with intellectual disabilities: person with an intellectual disability
+  afflicted with multiple sclerosis: person who has multiple sclerosis
+  afflicted with muscular dystrophy: person who has muscular dystrophy
+  afflicted with polio: polio|person who had polio
+  afflicted with psychosis: person with a psychotic condition|person with psychosis
+  afflicted with schizophrenia: person with schizophrenia
+  aids victim: person with AIDS
+  alcohol abuser: someone with an alcohol problem
+  alcoholic: someone with an alcohol problem
+  amputee: person with an amputation
+  anorexic: thin|slim
+  asylum: psychiatric hospital|mental health hospital
+  barren: empty|sterile|infertile
+  batshit: rude|malicious|mean|disgusting|incredible|vile|person with symptoms of
+    mental illness|person with mental illness|person with symptoms of a mental disorder|person
+    with a mental disorder
+  bedlam: chaos|hectic|pandemonium
+  binge: enthusiastic|spree
+  bipolar: fluctuating|person with bipolar disorder
+  birth defect: has a disability|person with a disability|people with disabilities
+  blind eye to: careless|heartless|indifferent|insensitive
+  blind to: careless|heartless|indifferent|insensitive
+  blinded by: careless|heartless|indifferent|insensitive
+  bony: thin|slim
+  bound to a wheelchair: uses a wheelchair
+  buckteeth: person with prominent teeth|prominent teeth
+  bucktoothed: person with prominent teeth|prominent teeth
+  challenged: has a disability|person with a disability|people with disabilities
+  cleftlipped: person with a cleft-lip and palate
+  confined to a wheelchair: uses a wheelchair
+  contard: disagreeable|uneducated|ignorant|naive|inconsiderate
+  crazy: rude|malicious|mean|disgusting|incredible|vile|person with symptoms of mental
+    illness|person with mental illness|person with symptoms of a mental disorder|person
+    with a mental disorder
+  cretin: creep|fool
+  cripple: person with a limp
+  crippled: person with a limp
+  daft: absurd|foolish
